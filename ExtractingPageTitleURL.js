@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 
-12345
+1234
 (async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
